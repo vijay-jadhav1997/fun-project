@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  border: none;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: cadetblue;
+}
+h1 {
+  background: white;
+  margin-block: 20px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgb(255, 230, 0);
+  text-align: center;
+  border-radius: 15px;
+}
+.click_button{
+  margin-block: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.click_button:hover {
+  color: white;
+  background-color: rgba(3, 3, 148, 0.783);
+}
+.click_button:active {
+  box-shadow: 0 0 10px rgb(0, 255, 255);
+}
+.display {
+  margin-block: 20px;
+  display: none;
+}
+.clock {
+  margin-block: 10px;
+  padding: 10px 20px;
+  background-color: transparent;
+  box-shadow: 0 0 10px rgb(156, 0, 135);
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  background: white;
+  margin-block: 20px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgb(255, 230, 0);
+  border-radius: 15px;
+}
+
+.container h3 {
+  margin-top: 10px;
+  padding: 5px 0;
+  text-shadow: -2px -2px 3px rgb(255, 0, 242);
+}
+.container h3:nth-child(2n) {
+  text-shadow: -2px -2px 3px rgb(13, 255, 0);
+}
+
